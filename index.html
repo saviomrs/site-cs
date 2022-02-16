@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/favicon-32x32.png"
+    />
+
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>CSPFA-DF</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <h1> <img src="assets/images/logo.png" width="75" height="75" align="left"> &ensp; Comissão de Seleção Permanente <br> &ensp; das Forças Armadas</h1>
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link">Sobre</a></li>
+        <li><a href="#skills" class="nav-link">Galeria</a></li>
+        <li><a href="#projects" class="nav-link">Localização</a></li>
+        <li><a href="#contact" class="nav-link">Contato</a></li>
+      </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+        <!-- <ion-icon class="times" name="close-outline"></ion-icon> -->
+      </button>
+    </nav>
+    
+
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+      <img
+        src="assets/images/logoimg.png"
+        alt="jane-doe"
+        loading="lazy"
+        class="hero-img"
+      />
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title">Sobre a CSPFA </h2>
+        <p class="bio-text">
+          Atualmente a CSPFA está trabalhando na etapa de seleção geral, onde os cidadãos alistados apresentam-se para que sejam entrevistados e submetidos a exames físicos e médicos, tendo por objetivo a triagem para a próxima etapa, que será a Seleção Complementar.
+        </p>
+      </div>
+    </section>
+
+    <!-- More about -->
+    <section class="more-about">
+      <h2>Dúvidas Frequentes</h2>
+      <p>
+       <b> Onde posso realizar o alistamento?</b><br>
+<br>
+
+Procure a Junta de Serviço Militar (JSM) mais próxima de sua residência. A JSM é um órgão da Prefeitura Municipal onde o jovem poderá procurar por informações quanto a sua localização. Os brasileiros que residem no exterior devem procurar um Consulado ou Embaixada Brasileira mais próxima de onde residem e realizar o alistamento. <br><br>
+
+<b>Que documentos devo levar para alistar-me?</b> <br>
+<br>
+
+Os documentos necessários para o alistamento são a Certidão de Nascimento, duas fotografias 3X4 e um comprovante de residência, identidade e CPF. <br><br>
+
+<b>Perdi o prazo do Alistamento. O que devo fazer?</b> <br>
+<br>
+
+Procure a Junta de Serviço Militar e realize o alistamento. Será cobrada uma multa em dinheiro que aumenta de acordo com a demora na regularização da situação militar. <br><br>
+
+<b>O que acontece se eu não me alistar?</b> <br>
+<br> 
+Você estará em débito com o Serviço Militar e será considerado REFRATÁRIO. Isto pode trazer-lhe conseqüências desagradáveis, pois não poderá prestar concurso público, tirar passaporte, ser matriculado em universidade, entre outras dificuldades.
+      </p>
+    </section>
+
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+      <h2 class="skill-header">Galeria</h2>
+
+      <input type="radio" class="slide-controller" name="slide" checked />
+<input type="radio" class="slide-controller" name="slide" />
+<input type="radio" class="slide-controller" name="slide" />
+<input type="radio" class="slide-controller" name="slide" />
+
+<div class="slide-show" >
+  <ul class="slides-list" >
+    <li class="slide" >
+      <img src="" />
+    </li>
+    <li class="slide" >
+      <img src="assets/images/article.png" />
+    </li>
+    <li class="slide" >
+      <img src="assets/images/2.png" />
+    </li>
+    <li class="slide" >
+      <img src="assets/images/article.png" />
+    </li>
+    
+  </ul>
+</div>
+      
+      
+    </section>
+
+    <!-- Projects section -->
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Localização</h2>
+      <div class="projects-container">
+        
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3839.6680130099185!2d-47.92848678514545!3d-15.76869218906717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a31957b1bbbcd%3A0x312d4c2a8703ceda!2sCENTRO%20DE%20SELE%C3%87%C3%83O%20DAS%20FOR%C3%87AS%20ARMADAS!5e0!3m2!1spt-BR!2sbr!4v1645040250638!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            
+          
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+      <h2>Entre em contato conosco</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/mayvyrkd" method="POST">
+            <div class="form-control">
+              <label for="name">Nome</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Seu nome"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Email"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Mensagem</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Mensagem"
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social accounts - Fixed to the right -->
+    <div class="socials">
+      <a href="https://twitter.com/exercitooficial?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"
+        ><img
+          src="assets/icons/icons8-twitter-circled.gif"
+          alt="Twitter"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://www.instagram.com/exercito_oficial/" target="_blank"
+        ><img
+          src="assets/icons/icons8-instagram.gif"
+          alt="Instagram"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://pt-br.facebook.com/exercito/" target="_blank"
+        ><img
+          src="assets/icons/icons8-facebook-num-círculo.gif"
+          alt="Linkedin"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      
+    </div>
+
+    <!-- Scroll to top -->
+    <i class="scroll-up" id="scroll-up"
+      ><img
+        src="assets/icons/icons8-upward-arrow.gif"
+        class="socicon up-arrow"
+        alt=""
+    /></i>
+
+    <!-- Footer section -->
+    <footer>
+      <p class="copy">&copy; Copyright 2022</p>
+      <p class="copy">
+        Built with VSCODE by
+        COMSOC CSPFA - CB Sávio </a
+        >
+      </p>
+    </footer>
+
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
